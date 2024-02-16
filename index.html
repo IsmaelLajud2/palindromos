@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styless.css">
+    <title>Verificador de palindromos</title>
+</head>
+
+<body>
+    <main class="container"> 
+        <h1 class="title">Es un palindromo?</h1>
+        <div class="div-palindromo">
+        <label for="text-input">Ingrese el texto para verficar si un palindromo:</label>
+        <input class="palindrome-input" type="text" value id="text-input">
+        <button id="check-btn" onclick="palindromo()"class="boton-check">Check</button>
+        <div class="results-div" id="result"></div> </div>
+        <div class="palidromo-definicion-div">
+            🤓Un palíndromo es una palabra u oración que se escribe de la misma manera tanto hacia adelante como hacia atrás.
+            y al revés, ignorando la puntuación, las mayúsculas y las minúsculas y el espaciado.</div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
